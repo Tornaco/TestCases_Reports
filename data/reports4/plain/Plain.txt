@@ -1,0 +1,184 @@
+Starting a Gradle Daemon, 1 incompatible Daemon could not be reused, use --status for details
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to D:\android\sdk\ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:app:prepareComAndroidSupportAppcompatV72531Library
+:app:prepareComAndroidSupportConstraintConstraintLayout101Library
+:app:prepareComAndroidSupportDesign2531Library
+:app:prepareComAndroidSupportPaletteV72531Library
+:app:prepareComAndroidSupportRecyclerviewV72531Library
+:app:prepareComAndroidSupportSupportCompat2531Library
+:app:prepareComAndroidSupportSupportCoreUi2531Library
+:app:prepareComAndroidSupportSupportCoreUtils2531Library
+:app:prepareComAndroidSupportSupportFragment2531Library
+:app:prepareComAndroidSupportSupportMediaCompat2531Library
+:app:prepareComAndroidSupportSupportV42531Library
+:app:prepareComAndroidSupportSupportVectorDrawable2531Library
+:app:prepareComAndroidSupportTransition2531Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+????: ¦Ä????????? Scope.LIBRARY_GROUP
+  ???: ?????android.support.annotation.RestrictTo$Scope???????
+????: ¦Ä????????? Scope.LIBRARY_GROUP
+????: ¦Ä????????? Scope.LIBRARY_GROUP
+????: ¦Ä????????? Scope.LIBRARY_GROUP
+????: ¦Ä????????? Scope.LIBRARY_GROUP
+????: ¦Ä????????? Scope.LIBRARY_GROUP
+????: ¦Ä????????? Scope.LIBRARY_GROUP
+????: ¦Ä????????? Scope.LIBRARY_GROUP
+????: ¦Ä????????? Scope.LIBRARY_GROUP
+????: ¦Ä????????? Scope.LIBRARY_GROUP
+????: ¦Ä????????? Scope.LIBRARY_GROUP
+11 ??????
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:preDebugAndroidTestBuild UP-TO-DATE
+:app:prepareComAndroidSupportTestEspressoEspressoCore222Library
+:app:prepareComAndroidSupportTestEspressoEspressoIdlingResource222Library
+:app:prepareComAndroidSupportTestExposedInstrumentationApiPublish05Library
+:app:prepareComAndroidSupportTestRules05Library
+:app:prepareComAndroidSupportTestRunner05Library
+:app:prepareComAndroidSupportTestUiautomatorUiautomatorV18212Library
+:app:prepareDebugAndroidTestDependencies
+:app:compileDebugAndroidTestAidl
+:app:processDebugAndroidTestManifest
+:app:compileDebugAndroidTestRenderscript
+:app:generateDebugAndroidTestBuildConfig
+:app:generateDebugAndroidTestResValues
+:app:generateDebugAndroidTestResources
+:app:mergeDebugAndroidTestResources
+:app:processDebugAndroidTestResources
+:app:generateDebugAndroidTestSources
+:app:incrementalDebugAndroidTestJavaCompilationSafeguard
+:app:javaPreCompileDebugAndroidTest
+:app:compileDebugAndroidTestJavaWithJavac????: ¦Ä????????? Scope.LIBRARY_GROUP
+  ???: ?????android.support.annotation.RestrictTo$Scope???????
+????: ¦Ä????????? Scope.LIBRARY_GROUP
+????: ¦Ä????????? Scope.LIBRARY_GROUP
+????: ¦Ä????????? Scope.LIBRARY_GROUP
+?: D:\cygwin\home\guohao4\work\testcases\app\src\androidTest\java\com\android\contacts\ContactsHelper.java?????????????? API??
+?: ?§Û???????, ????? -Xlint:deprecation ???¡À???
+4 ??????
+
+:app:compileDebugAndroidTestNdk UP-TO-DATE
+:app:compileDebugAndroidTestSources
+:app:mergeDebugAndroidTestShaders
+:app:compileDebugAndroidTestShaders
+:app:generateDebugAndroidTestAssets
+:app:mergeDebugAndroidTestAssets
+:app:transformClassesWithDexForDebugAndroidTest
+:app:mergeDebugAndroidTestJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebugAndroidTest
+:app:processDebugAndroidTestJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebugAndroidTest
+:app:validateSigningDebugAndroidTest
+:app:packageDebugAndroidTest
+:app:assembleDebugAndroidTest
+:app:connectedDebugAndroidTest
+Starting 95 tests on Lenovo TB-X304F - 7.1.1
+
+com.android.contacts.TestCase114_ImportWhenOnlyOneVCardTest > testImportWhenOnlyOneVCard[Lenovo TB-X304F - 7.1.1] FAILED
+        com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAIL: VCard count mismatch expected:<1> but was:<0>
+        at org.junit.Assert.fail(Assert.java:88)
+
+com.android.contacts.TestCase115_ImportWhenMultipleVCardExistTest > testImportWhenManyVCard[Lenovo TB-X304F - 7.1.1] FAILED
+        com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAIL: VCard count mismatch
+        at org.junit.Assert.fail(Assert.java:88)
+
+com.android.contacts.TestCase118_ImportWhenNoVCardTest > testImportWhenNoVCard[Lenovo TB-X304F - 7.1.1] FAILED
+        com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAIL: No SIM insert
+        at org.junit.Assert.fail(Assert.java:88)
+
+com.android.contacts.TestCase119_ImportWithOneLargeVCardTest > testImportWithOneLargeVCard[Lenovo TB-X304F - 7.1.1] FAILED
+        com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAIL: VCard count mismatch expected:<1> but was:<0>
+        at org.junit.Assert.fail(Assert.java:88)
+
+com.android.contacts.TestCase122_ExportToLocalStorageWithPeoplesTest > testExportToLocalStorageWithPeoples[Lenovo TB-X304F - 7.1.1] FAILED
+        com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAIL: null
+        at org.junit.Assert.fail(Assert.java:86)
+
+com.android.contacts.TestCase125_ExportToLocalStorageWith1000PeoplesTest > testExportToLocalStorageWithPeoples[Lenovo TB-X304F - 7.1.1] FAILED
+        com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAIL: null
+        at org.junit.Assert.fail(Assert.java:86)
+
+com.android.contacts.TestCase128_ExportToLocalStorageWithPeoplesDiscardTest > testExportToLocalStorageWithPeoples[Lenovo TB-X304F - 7.1.1] FAILED
+        com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAIL: null
+        at org.junit.Assert.fail(Assert.java:86)
+
+com.android.contacts.TestCase12_EditPhotoTest > testEditPhoto[Lenovo TB-X304F - 7.1.1] FAILED
+        com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAIL: No download photos
+        at org.junit.Assert.fail(Assert.java:88)
+
+com.android.contacts.TestCase131_ExportToLocalStorageWithPeoplesMultipleTimesTest > testExportToLocalStorageWithPeoples[Lenovo TB-X304F - 7.1.1] FAILED
+        com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAIL: null
+        at org.junit.Assert.fail(Assert.java:86)
+
+com.android.contacts.TestCase152_ExportToSDTest > testExportToSD[Lenovo TB-X304F - 7.1.1] FAILED
+        com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAIL: SD card not found
+        at org.junit.Assert.fail(Assert.java:88)
+
+com.android.contacts.TestCase187_Stress_ImportExportTest > testImportExport[Lenovo TB-X304F - 7.1.1] FAILED
+        java.lang.AssertionError: VCard count mismatch
+        at org.junit.Assert.fail(Assert.java:88)
+
+
+
+
+
+
+com.android.contacts.TestCase18_SaveandDiscardCompanyTest > testEditCompanyandTitle[Lenovo TB-X304F - 7.1.1] FAILED
+        java.lang.AssertionError
+        at org.junit.Assert.fail(Assert.java:86)
+
+com.android.contacts.TestCase191_ExportToSDWith1000PeoplesTest > testExportToLocalStorageWithPeoples[Lenovo TB-X304F - 7.1.1] FAILED
+        com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAIL: null
+        at org.junit.Assert.fail(Assert.java:86)
+
+com.android.contacts.TestCase21_SaveandDiscardPhoneTest > testSaveandDiscardPhone[Lenovo TB-X304F - 7.1.1] FAILED
+        java.lang.AssertionError
+        at org.junit.Assert.fail(Assert.java:86)
+
+
+
+
+
+
+
+com.android.contacts.TestCase29_CreatePeopleInSIMTest > testCreatePeopleInSIM[Lenovo TB-X304F - 7.1.1] FAILED
+        com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAIL: SIM not ready
+        at org.junit.Assert.fail(Assert.java:88)
+
+com.android.contacts.TestCase31_SyncContactsWithQQAccountTest > testSyncWithQQ[Lenovo TB-X304F - 7.1.1] FAILED
+        com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAIL: Your device has no QQ account!
+        at org.junit.Assert.fail(Assert.java:88)
