@@ -1,0 +1,875 @@
+Initialized native services in: /home/fwpub/.gradle/native
+Connected to daemon DaemonInfo{pid=29784, address=[876c577d-aa3b-40be-9a17-c7333d364879 port:39792, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]], state=Idle, lastBusy=1496716208403, context=DefaultDaemonContext[uid=ae6a5239-4b60-4dba-ad50-44738d460729,javaHome=/usr/lib/jvm/java-8-openjdk-amd64,daemonRegistryDir=/home/fwpub/.gradle/daemon,pid=29784,idleTimeout=10800000,daemonOpts=-Xmx1536m,-Dfile.encoding=UTF-8,-Duser.country=CN,-Duser.language=zh,-Duser.variant]}. Dispatching request Build{id=072960a9-e0fd-4f41-9f41-e3bbea5df678.1, currentDir=/home/fwpub/work/testcase/testcases}.
+Received result org.gradle.launcher.daemon.protocol.BuildStarted@8e50104 from daemon DaemonInfo{pid=29784, address=[876c577d-aa3b-40be-9a17-c7333d364879 port:39792, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]], state=Idle, lastBusy=1496716208403, context=DefaultDaemonContext[uid=ae6a5239-4b60-4dba-ad50-44738d460729,javaHome=/usr/lib/jvm/java-8-openjdk-amd64,daemonRegistryDir=/home/fwpub/.gradle/daemon,pid=29784,idleTimeout=10800000,daemonOpts=-Xmx1536m,-Dfile.encoding=UTF-8,-Duser.country=CN,-Duser.language=zh,-Duser.variant]} (build should be starting).
+The client will now receive all logging from the daemon (pid: 29784). The daemon log file: /home/fwpub/.gradle/daemon/3.3/daemon-29784.out.log
+Starting 4th build in daemon [uptime: 7 mins 20.186 secs, performance: 100%]
+Executing build with daemon context: DefaultDaemonContext[uid=ae6a5239-4b60-4dba-ad50-44738d460729,javaHome=/usr/lib/jvm/java-8-openjdk-amd64,daemonRegistryDir=/home/fwpub/.gradle/daemon,pid=29784,idleTimeout=10800000,daemonOpts=-Xmx1536m,-Dfile.encoding=UTF-8,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+Creating new cache for plugin-use-metadata, path /home/fwpub/.gradle/caches/3.3/plugin-resolution/plugin-use-metadata.bin, access org.gradle.cache.internal.DefaultCacheAccess@7f01e928
+Creating new cache for client-status, path /home/fwpub/.gradle/caches/3.3/plugin-resolution/client-status.bin, access org.gradle.cache.internal.DefaultCacheAccess@7f01e928
+Starting Build
+Settings evaluated using settings file '/home/fwpub/work/testcase/testcases/settings.gradle'.
+Projects loaded. Root project using build file '/home/fwpub/work/testcase/testcases/build.gradle'.
+Included projects: [root project 'testcases', project ':app']
+Closing daemon's stdin at end of input.
+The daemon will no longer process any standard input.
+Evaluating root project 'testcases' using build file '/home/fwpub/work/testcase/testcases/build.gradle'.
+Creating new cache for metadata-2.23/module-metadata, path /home/fwpub/.gradle/caches/modules-2/metadata-2.23/module-metadata.bin, access org.gradle.cache.internal.DefaultCacheAccess@510700ab
+Creating new cache for metadata-2.23/artifact-at-repository, path /home/fwpub/.gradle/caches/modules-2/metadata-2.23/artifact-at-repository.bin, access org.gradle.cache.internal.DefaultCacheAccess@510700ab
+Evaluating project ':app' using build file '/home/fwpub/work/testcase/testcases/app/build.gradle'.
+Using 2 worker leases.
+Creating configuration compile
+Creating configuration apk
+Creating configuration provided
+Creating configuration wearApp
+Creating configuration annotationProcessor
+Creating configuration jackPlugin
+Creating configuration androidTestCompile
+Creating configuration androidTestApk
+Creating configuration androidTestProvided
+Creating configuration androidTestWearApp
+Creating configuration androidTestAnnotationProcessor
+Creating configuration androidTestJackPlugin
+Creating configuration testCompile
+Creating configuration testApk
+Creating configuration testProvided
+Creating configuration testWearApp
+Creating configuration testAnnotationProcessor
+Creating configuration testJackPlugin
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /home/fwpub/program/android-sdk-linux/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+Creating configuration debugCompile
+Creating configuration debugApk
+Creating configuration debugProvided
+Creating configuration debugWearApp
+Creating configuration debugAnnotationProcessor
+Creating configuration debugJackPlugin
+Creating configuration testDebugCompile
+Creating configuration testDebugApk
+Creating configuration testDebugProvided
+Creating configuration testDebugWearApp
+Creating configuration testDebugAnnotationProcessor
+Creating configuration testDebugJackPlugin
+Creating configuration releaseCompile
+Creating configuration releaseApk
+Creating configuration releaseProvided
+Creating configuration releaseWearApp
+Creating configuration releaseAnnotationProcessor
+Creating configuration releaseJackPlugin
+Creating configuration testReleaseCompile
+Creating configuration testReleaseApk
+Creating configuration testReleaseProvided
+Creating configuration testReleaseWearApp
+Creating configuration testReleaseAnnotationProcessor
+Creating configuration testReleaseJackPlugin
+Parsing the SDK, no caching allowed
+SDK initialized in 4 ms
+file or directory '/home/fwpub/work/testcase/testcases/app/libs', not found
+file or directory '/home/fwpub/work/testcase/testcases/app/libs', not found
+file or directory '/home/fwpub/work/testcase/testcases/app/libs', not found
+file or directory '/home/fwpub/work/testcase/testcases/app/libs', not found
+Using incremental javac compilation for :app debug.
+Incremental java compilation is an incubating feature.
+Not using incremental javac compilation for :app debugUnitTest.
+Using incremental javac compilation for :app release.
+Not using incremental javac compilation for :app releaseUnitTest.
+Not using incremental javac compilation for :app debugAndroidTest.
+All projects evaluated.
+Selected primary task 'connectedAndroidTest' from project :
+Tasks to be executed: [task ':app:preBuild', task ':app:preDebugBuild', task ':app:checkDebugManifest', task ':app:preReleaseBuild', task ':app:prepareComAndroidSupportAnimatedVectorDrawable2531Library', task ':app:prepareComAndroidSupportAppcompatV72531Library', task ':app:prepareComAndroidSupportDesign2531Library', task ':app:prepareComAndroidSupportPaletteV72531Library', task ':app:prepareComAndroidSupportRecyclerviewV72531Library', task ':app:prepareComAndroidSupportSupportCompat2531Library', task ':app:prepareComAndroidSupportSupportCoreUi2531Library', task ':app:prepareComAndroidSupportSupportCoreUtils2531Library', task ':app:prepareComAndroidSupportSupportFragment2531Library', task ':app:prepareComAndroidSupportSupportMediaCompat2531Library', task ':app:prepareComAndroidSupportSupportV42531Library', task ':app:prepareComAndroidSupportSupportVectorDrawable2531Library', task ':app:prepareComAndroidSupportTransition2531Library', task ':app:prepareDebugDependencies', task ':app:compileDebugAidl', task ':app:compileDebugRenderscript', task ':app:generateDebugBuildConfig', task ':app:generateDebugResValues', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:processDebugManifest', task ':app:processDebugResources', task ':app:generateDebugSources', task ':app:incrementalDebugJavaCompilationSafeguard', task ':app:javaPreCompileDebug', task ':app:compileDebugJavaWithJavac', task ':app:compileDebugNdk', task ':app:compileDebugSources', task ':app:mergeDebugShaders', task ':app:compileDebugShaders', task ':app:generateDebugAssets', task ':app:mergeDebugAssets', task ':app:transformClassesWithDexForDebug', task ':app:mergeDebugJniLibFolders', task ':app:transformNativeLibsWithMergeJniLibsForDebug', task ':app:processDebugJavaRes', task ':app:transformResourcesWithMergeJavaResForDebug', task ':app:validateSigningDebug', task ':app:packageDebug', task ':app:assembleDebug', task ':app:preDebugAndroidTestBuild', task ':app:prepareComAndroidSupportTestEspressoEspressoCore222Library', task ':app:prepareComAndroidSupportTestEspressoEspressoIdlingResource222Library', task ':app:prepareComAndroidSupportTestExposedInstrumentationApiPublish05Library', task ':app:prepareComAndroidSupportTestRules05Library', task ':app:prepareComAndroidSupportTestRunner05Library', task ':app:prepareComAndroidSupportTestUiautomatorUiautomatorV18212Library', task ':app:prepareDebugAndroidTestDependencies', task ':app:compileDebugAndroidTestAidl', task ':app:processDebugAndroidTestManifest', task ':app:compileDebugAndroidTestRenderscript', task ':app:generateDebugAndroidTestBuildConfig', task ':app:generateDebugAndroidTestResValues', task ':app:generateDebugAndroidTestResources', task ':app:mergeDebugAndroidTestResources', task ':app:processDebugAndroidTestResources', task ':app:generateDebugAndroidTestSources', task ':app:incrementalDebugAndroidTestJavaCompilationSafeguard', task ':app:javaPreCompileDebugAndroidTest', task ':app:compileDebugAndroidTestJavaWithJavac', task ':app:compileDebugAndroidTestNdk', task ':app:compileDebugAndroidTestSources', task ':app:mergeDebugAndroidTestShaders', task ':app:compileDebugAndroidTestShaders', task ':app:generateDebugAndroidTestAssets', task ':app:mergeDebugAndroidTestAssets', task ':app:transformClassesWithDexForDebugAndroidTest', task ':app:mergeDebugAndroidTestJniLibFolders', task ':app:transformNativeLibsWithMergeJniLibsForDebugAndroidTest', task ':app:processDebugAndroidTestJavaRes', task ':app:transformResourcesWithMergeJavaResForDebugAndroidTest', task ':app:validateSigningDebugAndroidTest', task ':app:packageDebugAndroidTest', task ':app:assembleDebugAndroidTest', task ':app:connectedDebugAndroidTest', task ':app:connectedAndroidTest']
+Creating new cache for fileHashes, path /home/fwpub/work/testcase/testcases/.gradle/3.3/taskArtifacts/fileHashes.bin, access org.gradle.cache.internal.DefaultCacheAccess@1b1e51c0
+In-memory cache of /home/fwpub/work/testcase/testcases/.gradle/3.3/taskArtifacts/fileHashes.bin: Size{1880}, CacheStats{hitCount=1957, missCount=1880, loadSuccessCount=1880, loadExceptionCount=0, totalLoadTime=203147794, evictionCount=0}
+Creating new cache for fileSnapshots, path /home/fwpub/work/testcase/testcases/.gradle/3.3/taskArtifacts/fileSnapshots.bin, access org.gradle.cache.internal.DefaultCacheAccess@1b1e51c0
+In-memory cache of /home/fwpub/work/testcase/testcases/.gradle/3.3/taskArtifacts/fileSnapshots.bin: Size{228}, CacheStats{hitCount=0, missCount=180, loadSuccessCount=180, loadExceptionCount=0, totalLoadTime=68472550, evictionCount=0}
+Creating new cache for taskArtifacts, path /home/fwpub/work/testcase/testcases/.gradle/3.3/taskArtifacts/taskArtifacts.bin, access org.gradle.cache.internal.DefaultCacheAccess@1b1e51c0
+In-memory cache of /home/fwpub/work/testcase/testcases/.gradle/3.3/taskArtifacts/taskArtifacts.bin: Size{39}, CacheStats{hitCount=0, missCount=39, loadSuccessCount=39, loadExceptionCount=0, totalLoadTime=58995140, evictionCount=0}
+:app:preBuild (Thread[Daemon worker Thread 2,5,main]) started.
+:app:preBuild
+Skipping task ':app:preBuild' as it has no actions.
+:app:preBuild UP-TO-DATE
+:app:preBuild (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.001 secs.
+:app:preDebugBuild (Thread[Daemon worker Thread 2,5,main]) started.
+:app:preDebugBuild
+Skipping task ':app:preDebugBuild' as it has no actions.
+:app:preDebugBuild UP-TO-DATE
+:app:preDebugBuild (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.0 secs.
+:app:checkDebugManifest (Thread[Daemon worker Thread 2,5,main]) started.
+:app:checkDebugManifest
+Putting task artifact state for task ':app:checkDebugManifest' into context took 0.0 secs.
+Executing task ':app:checkDebugManifest' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:checkDebugManifest (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.0 secs.
+:app:preReleaseBuild (Thread[Daemon worker Thread 2,5,main]) started.
+:app:preReleaseBuild
+Skipping task ':app:preReleaseBuild' as it has no actions.
+:app:preReleaseBuild UP-TO-DATE
+:app:preReleaseBuild (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.003 secs.
+:app:prepareComAndroidSupportAnimatedVectorDrawable2531Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+Putting task artifact state for task ':app:prepareComAndroidSupportAnimatedVectorDrawable2531Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportAnimatedVectorDrawable2531Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportAnimatedVectorDrawable2531Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.009 secs.
+:app:prepareComAndroidSupportAppcompatV72531Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportAppcompatV72531Library
+Putting task artifact state for task ':app:prepareComAndroidSupportAppcompatV72531Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportAppcompatV72531Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportAppcompatV72531Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.003 secs.
+:app:prepareComAndroidSupportDesign2531Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportDesign2531Library
+Putting task artifact state for task ':app:prepareComAndroidSupportDesign2531Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportDesign2531Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportDesign2531Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.019 secs.
+:app:prepareComAndroidSupportPaletteV72531Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportPaletteV72531Library
+Putting task artifact state for task ':app:prepareComAndroidSupportPaletteV72531Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportPaletteV72531Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportPaletteV72531Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.006 secs.
+:app:prepareComAndroidSupportRecyclerviewV72531Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportRecyclerviewV72531Library
+Putting task artifact state for task ':app:prepareComAndroidSupportRecyclerviewV72531Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportRecyclerviewV72531Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportRecyclerviewV72531Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.004 secs.
+:app:prepareComAndroidSupportSupportCompat2531Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportSupportCompat2531Library
+Putting task artifact state for task ':app:prepareComAndroidSupportSupportCompat2531Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportSupportCompat2531Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportSupportCompat2531Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.017 secs.
+:app:prepareComAndroidSupportSupportCoreUi2531Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportSupportCoreUi2531Library
+Putting task artifact state for task ':app:prepareComAndroidSupportSupportCoreUi2531Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportSupportCoreUi2531Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportSupportCoreUi2531Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.005 secs.
+:app:prepareComAndroidSupportSupportCoreUtils2531Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportSupportCoreUtils2531Library
+Putting task artifact state for task ':app:prepareComAndroidSupportSupportCoreUtils2531Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportSupportCoreUtils2531Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportSupportCoreUtils2531Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.009 secs.
+:app:prepareComAndroidSupportSupportFragment2531Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportSupportFragment2531Library
+Putting task artifact state for task ':app:prepareComAndroidSupportSupportFragment2531Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportSupportFragment2531Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportSupportFragment2531Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.013 secs.
+:app:prepareComAndroidSupportSupportMediaCompat2531Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportSupportMediaCompat2531Library
+Putting task artifact state for task ':app:prepareComAndroidSupportSupportMediaCompat2531Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportSupportMediaCompat2531Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportSupportMediaCompat2531Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.005 secs.
+:app:prepareComAndroidSupportSupportV42531Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportSupportV42531Library
+Putting task artifact state for task ':app:prepareComAndroidSupportSupportV42531Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportSupportV42531Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportSupportV42531Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.004 secs.
+:app:prepareComAndroidSupportSupportVectorDrawable2531Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportSupportVectorDrawable2531Library
+Putting task artifact state for task ':app:prepareComAndroidSupportSupportVectorDrawable2531Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportSupportVectorDrawable2531Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportSupportVectorDrawable2531Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.004 secs.
+:app:prepareComAndroidSupportTransition2531Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportTransition2531Library
+Putting task artifact state for task ':app:prepareComAndroidSupportTransition2531Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportTransition2531Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportTransition2531Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.013 secs.
+:app:prepareDebugDependencies (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareDebugDependencies
+Putting task artifact state for task ':app:prepareDebugDependencies' into context took 0.0 secs.
+Executing task ':app:prepareDebugDependencies' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareDebugDependencies (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.003 secs.
+:app:compileDebugAidl (Thread[Daemon worker Thread 2,5,main]) started.
+:app:compileDebugAidl
+Putting task artifact state for task ':app:compileDebugAidl' into context took 0.001 secs.
+Task :app:compileDebugAidl class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:compileDebugAidl actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:compileDebugAidl' as it is up-to-date (took 0.005 secs).
+:app:compileDebugAidl UP-TO-DATE
+:app:compileDebugAidl (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.007 secs.
+:app:compileDebugRenderscript (Thread[Daemon worker Thread 2,5,main]) started.
+:app:compileDebugRenderscript
+Putting task artifact state for task ':app:compileDebugRenderscript' into context took 0.0 secs.
+Task :app:compileDebugRenderscript class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:compileDebugRenderscript actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:compileDebugRenderscript' as it is up-to-date (took 0.003 secs).
+:app:compileDebugRenderscript UP-TO-DATE
+:app:compileDebugRenderscript (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.006 secs.
+:app:generateDebugBuildConfig (Thread[Daemon worker Thread 2,5,main]) started.
+:app:generateDebugBuildConfig
+Putting task artifact state for task ':app:generateDebugBuildConfig' into context took 0.0 secs.
+Task :app:generateDebugBuildConfig class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:generateDebugBuildConfig actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:generateDebugBuildConfig' as it is up-to-date (took 0.003 secs).
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:generateDebugBuildConfig (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.033 secs.
+:app:generateDebugResValues (Thread[Daemon worker Thread 2,5,main]) started.
+:app:generateDebugResValues
+Putting task artifact state for task ':app:generateDebugResValues' into context took 0.002 secs.
+Task :app:generateDebugResValues class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:generateDebugResValues actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:generateDebugResValues' as it is up-to-date (took 0.003 secs).
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResValues (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.006 secs.
+:app:generateDebugResources (Thread[Daemon worker Thread 2,5,main]) started.
+:app:generateDebugResources
+Skipping task ':app:generateDebugResources' as it has no actions.
+:app:generateDebugResources UP-TO-DATE
+:app:generateDebugResources (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.003 secs.
+:app:mergeDebugResources (Thread[Daemon worker Thread 2,5,main]) started.
+:app:mergeDebugResources
+Putting task artifact state for task ':app:mergeDebugResources' into context took 0.0 secs.
+Task :app:mergeDebugResources class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:mergeDebugResources actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:mergeDebugResources' as it is up-to-date (took 0.047 secs).
+:app:mergeDebugResources UP-TO-DATE
+:app:mergeDebugResources (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.049 secs.
+:app:processDebugManifest (Thread[Daemon worker Thread 2,5,main]) started.
+:app:processDebugManifest
+Putting task artifact state for task ':app:processDebugManifest' into context took 0.0 secs.
+Task :app:processDebugManifest class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:processDebugManifest actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:processDebugManifest' as it is up-to-date (took 0.004 secs).
+:app:processDebugManifest UP-TO-DATE
+:app:processDebugManifest (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.006 secs.
+:app:processDebugResources (Thread[Daemon worker Thread 2,5,main]) started.
+:app:processDebugResources
+Putting task artifact state for task ':app:processDebugResources' into context took 0.005 secs.
+Task :app:processDebugResources class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:processDebugResources actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:processDebugResources' as it is up-to-date (took 0.019 secs).
+:app:processDebugResources UP-TO-DATE
+:app:processDebugResources (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.028 secs.
+:app:generateDebugSources (Thread[Daemon worker Thread 2,5,main]) started.
+:app:generateDebugSources
+Skipping task ':app:generateDebugSources' as it has no actions.
+:app:generateDebugSources UP-TO-DATE
+:app:generateDebugSources (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.009 secs.
+:app:incrementalDebugJavaCompilationSafeguard (Thread[Daemon worker Thread 2,5,main]) started.
+:app:incrementalDebugJavaCompilationSafeguard
+Putting task artifact state for task ':app:incrementalDebugJavaCompilationSafeguard' into context took 0.0 secs.
+Task :app:incrementalDebugJavaCompilationSafeguard class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:incrementalDebugJavaCompilationSafeguard actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:incrementalDebugJavaCompilationSafeguard' as it is up-to-date (took 0.002 secs).
+:app:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:app:incrementalDebugJavaCompilationSafeguard (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.011 secs.
+:app:javaPreCompileDebug (Thread[Daemon worker Thread 2,5,main]) started.
+:app:javaPreCompileDebug
+Putting task artifact state for task ':app:javaPreCompileDebug' into context took 0.0 secs.
+Executing task ':app:javaPreCompileDebug' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:javaPreCompileDebug (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.0 secs.
+:app:compileDebugJavaWithJavac (Thread[Daemon worker Thread 2,5,main]) started.
+:app:compileDebugJavaWithJavac
+Putting task artifact state for task ':app:compileDebugJavaWithJavac' into context took 0.0 secs.
+Task :app:compileDebugJavaWithJavac class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:compileDebugJavaWithJavac actions class loader hash: 18198991b357e4282b88db10fdb1e992
+file or directory '/home/fwpub/work/testcase/testcases/app/src/debug/java', not found
+Skipping task ':app:compileDebugJavaWithJavac' as it is up-to-date (took 0.014 secs).
+:app:compileDebugJavaWithJavac UP-TO-DATE
+:app:compileDebugJavaWithJavac (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.018 secs.
+:app:compileDebugNdk (Thread[Daemon worker Thread 2,5,main]) started.
+:app:compileDebugNdk
+Putting task artifact state for task ':app:compileDebugNdk' into context took 0.0 secs.
+Skipping task ':app:compileDebugNdk' as it has no source files and no previous output files.
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugNdk (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.003 secs.
+:app:compileDebugSources (Thread[Daemon worker Thread 2,5,main]) started.
+:app:compileDebugSources
+Skipping task ':app:compileDebugSources' as it has no actions.
+:app:compileDebugSources UP-TO-DATE
+:app:compileDebugSources (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.002 secs.
+:app:mergeDebugShaders (Thread[Daemon worker Thread 2,5,main]) started.
+:app:mergeDebugShaders
+Putting task artifact state for task ':app:mergeDebugShaders' into context took 0.0 secs.
+Task :app:mergeDebugShaders class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:mergeDebugShaders actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:mergeDebugShaders' as it is up-to-date (took 0.001 secs).
+:app:mergeDebugShaders UP-TO-DATE
+:app:mergeDebugShaders (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.004 secs.
+:app:compileDebugShaders (Thread[Daemon worker Thread 2,5,main]) started.
+:app:compileDebugShaders
+Putting task artifact state for task ':app:compileDebugShaders' into context took 0.001 secs.
+Task :app:compileDebugShaders class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:compileDebugShaders actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:compileDebugShaders' as it is up-to-date (took 0.002 secs).
+:app:compileDebugShaders UP-TO-DATE
+:app:compileDebugShaders (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.005 secs.
+:app:generateDebugAssets (Thread[Daemon worker Thread 2,5,main]) started.
+:app:generateDebugAssets
+Skipping task ':app:generateDebugAssets' as it has no actions.
+:app:generateDebugAssets UP-TO-DATE
+:app:generateDebugAssets (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.006 secs.
+:app:mergeDebugAssets (Thread[Daemon worker Thread 2,5,main]) started.
+:app:mergeDebugAssets
+Putting task artifact state for task ':app:mergeDebugAssets' into context took 0.001 secs.
+Task :app:mergeDebugAssets class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:mergeDebugAssets actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:mergeDebugAssets' as it is up-to-date (took 0.013 secs).
+:app:mergeDebugAssets UP-TO-DATE
+:app:mergeDebugAssets (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.021 secs.
+:app:transformClassesWithDexForDebug (Thread[Daemon worker Thread 2,5,main]) started.
+:app:transformClassesWithDexForDebug
+Putting task artifact state for task ':app:transformClassesWithDexForDebug' into context took 0.0 secs.
+Task :app:transformClassesWithDexForDebug class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:transformClassesWithDexForDebug actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:transformClassesWithDexForDebug' as it is up-to-date (took 0.008 secs).
+:app:transformClassesWithDexForDebug UP-TO-DATE
+:app:transformClassesWithDexForDebug (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.015 secs.
+:app:mergeDebugJniLibFolders (Thread[Daemon worker Thread 2,5,main]) started.
+:app:mergeDebugJniLibFolders
+Putting task artifact state for task ':app:mergeDebugJniLibFolders' into context took 0.0 secs.
+Task :app:mergeDebugJniLibFolders class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:mergeDebugJniLibFolders actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:mergeDebugJniLibFolders' as it is up-to-date (took 0.006 secs).
+:app:mergeDebugJniLibFolders UP-TO-DATE
+:app:mergeDebugJniLibFolders (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.011 secs.
+:app:transformNativeLibsWithMergeJniLibsForDebug (Thread[Daemon worker Thread 2,5,main]) started.
+:app:transformNativeLibsWithMergeJniLibsForDebug
+Putting task artifact state for task ':app:transformNativeLibsWithMergeJniLibsForDebug' into context took 0.005 secs.
+Task :app:transformNativeLibsWithMergeJniLibsForDebug class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:transformNativeLibsWithMergeJniLibsForDebug actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:transformNativeLibsWithMergeJniLibsForDebug' as it is up-to-date (took 0.007 secs).
+:app:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:app:transformNativeLibsWithMergeJniLibsForDebug (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.021 secs.
+:app:processDebugJavaRes (Thread[Daemon worker Thread 2,5,main]) started.
+:app:processDebugJavaRes
+Putting task artifact state for task ':app:processDebugJavaRes' into context took 0.0 secs.
+Skipping task ':app:processDebugJavaRes' as it has no source files and no previous output files.
+:app:processDebugJavaRes UP-TO-DATE
+:app:processDebugJavaRes (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.001 secs.
+:app:transformResourcesWithMergeJavaResForDebug (Thread[Daemon worker Thread 2,5,main]) started.
+:app:transformResourcesWithMergeJavaResForDebug
+Putting task artifact state for task ':app:transformResourcesWithMergeJavaResForDebug' into context took 0.0 secs.
+Task :app:transformResourcesWithMergeJavaResForDebug class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:transformResourcesWithMergeJavaResForDebug actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:transformResourcesWithMergeJavaResForDebug' as it is up-to-date (took 0.002 secs).
+:app:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.004 secs.
+:app:validateSigningDebug (Thread[Daemon worker Thread 2,5,main]) started.
+:app:validateSigningDebug
+Putting task artifact state for task ':app:validateSigningDebug' into context took 0.0 secs.
+Executing task ':app:validateSigningDebug' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:validateSigningDebug (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.013 secs.
+:app:packageDebug (Thread[Daemon worker Thread 2,5,main]) started.
+:app:packageDebug
+Putting task artifact state for task ':app:packageDebug' into context took 0.001 secs.
+Task :app:packageDebug class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:packageDebug actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:packageDebug' as it is up-to-date (took 0.024 secs).
+:app:packageDebug UP-TO-DATE
+:app:packageDebug (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.039 secs.
+:app:assembleDebug (Thread[Daemon worker Thread 2,5,main]) started.
+:app:assembleDebug
+Skipping task ':app:assembleDebug' as it has no actions.
+:app:assembleDebug UP-TO-DATE
+:app:assembleDebug (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.001 secs.
+:app:preDebugAndroidTestBuild (Thread[Daemon worker Thread 2,5,main]) started.
+:app:preDebugAndroidTestBuild
+Skipping task ':app:preDebugAndroidTestBuild' as it has no actions.
+:app:preDebugAndroidTestBuild UP-TO-DATE
+:app:preDebugAndroidTestBuild (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.001 secs.
+:app:prepareComAndroidSupportTestEspressoEspressoCore222Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportTestEspressoEspressoCore222Library
+Putting task artifact state for task ':app:prepareComAndroidSupportTestEspressoEspressoCore222Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportTestEspressoEspressoCore222Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportTestEspressoEspressoCore222Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.01 secs.
+:app:prepareComAndroidSupportTestEspressoEspressoIdlingResource222Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportTestEspressoEspressoIdlingResource222Library
+Putting task artifact state for task ':app:prepareComAndroidSupportTestEspressoEspressoIdlingResource222Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportTestEspressoEspressoIdlingResource222Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportTestEspressoEspressoIdlingResource222Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.014 secs.
+:app:prepareComAndroidSupportTestExposedInstrumentationApiPublish05Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportTestExposedInstrumentationApiPublish05Library
+Putting task artifact state for task ':app:prepareComAndroidSupportTestExposedInstrumentationApiPublish05Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportTestExposedInstrumentationApiPublish05Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportTestExposedInstrumentationApiPublish05Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.003 secs.
+:app:prepareComAndroidSupportTestRules05Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportTestRules05Library
+Putting task artifact state for task ':app:prepareComAndroidSupportTestRules05Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportTestRules05Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportTestRules05Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.006 secs.
+:app:prepareComAndroidSupportTestRunner05Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportTestRunner05Library
+Putting task artifact state for task ':app:prepareComAndroidSupportTestRunner05Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportTestRunner05Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportTestRunner05Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.008 secs.
+:app:prepareComAndroidSupportTestUiautomatorUiautomatorV18212Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportTestUiautomatorUiautomatorV18212Library
+Putting task artifact state for task ':app:prepareComAndroidSupportTestUiautomatorUiautomatorV18212Library' into context took 0.001 secs.
+Executing task ':app:prepareComAndroidSupportTestUiautomatorUiautomatorV18212Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportTestUiautomatorUiautomatorV18212Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.008 secs.
+:app:prepareDebugAndroidTestDependencies (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareDebugAndroidTestDependencies
+Putting task artifact state for task ':app:prepareDebugAndroidTestDependencies' into context took 0.0 secs.
+Executing task ':app:prepareDebugAndroidTestDependencies' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareDebugAndroidTestDependencies (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.002 secs.
+:app:compileDebugAndroidTestAidl (Thread[Daemon worker Thread 2,5,main]) started.
+:app:compileDebugAndroidTestAidl
+Putting task artifact state for task ':app:compileDebugAndroidTestAidl' into context took 0.001 secs.
+Task :app:compileDebugAndroidTestAidl class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:compileDebugAndroidTestAidl actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:compileDebugAndroidTestAidl' as it is up-to-date (took 0.004 secs).
+:app:compileDebugAndroidTestAidl UP-TO-DATE
+:app:compileDebugAndroidTestAidl (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.009 secs.
+:app:processDebugAndroidTestManifest (Thread[Daemon worker Thread 2,5,main]) started.
+:app:processDebugAndroidTestManifest
+Putting task artifact state for task ':app:processDebugAndroidTestManifest' into context took 0.001 secs.
+Task :app:processDebugAndroidTestManifest class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:processDebugAndroidTestManifest actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:processDebugAndroidTestManifest' as it is up-to-date (took 0.014 secs).
+:app:processDebugAndroidTestManifest UP-TO-DATE
+:app:processDebugAndroidTestManifest (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.018 secs.
+:app:compileDebugAndroidTestRenderscript (Thread[Daemon worker Thread 2,5,main]) started.
+:app:compileDebugAndroidTestRenderscript
+Putting task artifact state for task ':app:compileDebugAndroidTestRenderscript' into context took 0.0 secs.
+Task :app:compileDebugAndroidTestRenderscript class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:compileDebugAndroidTestRenderscript actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:compileDebugAndroidTestRenderscript' as it is up-to-date (took 0.006 secs).
+:app:compileDebugAndroidTestRenderscript UP-TO-DATE
+:app:compileDebugAndroidTestRenderscript (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.037 secs.
+:app:generateDebugAndroidTestBuildConfig (Thread[Daemon worker Thread 2,5,main]) started.
+:app:generateDebugAndroidTestBuildConfig
+Putting task artifact state for task ':app:generateDebugAndroidTestBuildConfig' into context took 0.0 secs.
+Task :app:generateDebugAndroidTestBuildConfig class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:generateDebugAndroidTestBuildConfig actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:generateDebugAndroidTestBuildConfig' as it is up-to-date (took 0.003 secs).
+:app:generateDebugAndroidTestBuildConfig UP-TO-DATE
+:app:generateDebugAndroidTestBuildConfig (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.015 secs.
+:app:generateDebugAndroidTestResValues (Thread[Daemon worker Thread 2,5,main]) started.
+:app:generateDebugAndroidTestResValues
+Putting task artifact state for task ':app:generateDebugAndroidTestResValues' into context took 0.0 secs.
+Task :app:generateDebugAndroidTestResValues class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:generateDebugAndroidTestResValues actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:generateDebugAndroidTestResValues' as it is up-to-date (took 0.014 secs).
+:app:generateDebugAndroidTestResValues UP-TO-DATE
+:app:generateDebugAndroidTestResValues (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.016 secs.
+:app:generateDebugAndroidTestResources (Thread[Daemon worker Thread 2,5,main]) started.
+:app:generateDebugAndroidTestResources
+Skipping task ':app:generateDebugAndroidTestResources' as it has no actions.
+:app:generateDebugAndroidTestResources UP-TO-DATE
+:app:generateDebugAndroidTestResources (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.002 secs.
+:app:mergeDebugAndroidTestResources (Thread[Daemon worker Thread 2,5,main]) started.
+:app:mergeDebugAndroidTestResources
+Putting task artifact state for task ':app:mergeDebugAndroidTestResources' into context took 0.003 secs.
+Task :app:mergeDebugAndroidTestResources class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:mergeDebugAndroidTestResources actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:mergeDebugAndroidTestResources' as it is up-to-date (took 0.005 secs).
+:app:mergeDebugAndroidTestResources UP-TO-DATE
+:app:mergeDebugAndroidTestResources (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.016 secs.
+:app:processDebugAndroidTestResources (Thread[Daemon worker Thread 2,5,main]) started.
+:app:processDebugAndroidTestResources
+Putting task artifact state for task ':app:processDebugAndroidTestResources' into context took 0.001 secs.
+Task :app:processDebugAndroidTestResources class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:processDebugAndroidTestResources actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:processDebugAndroidTestResources' as it is up-to-date (took 0.025 secs).
+:app:processDebugAndroidTestResources UP-TO-DATE
+:app:processDebugAndroidTestResources (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.027 secs.
+:app:generateDebugAndroidTestSources (Thread[Daemon worker Thread 2,5,main]) started.
+:app:generateDebugAndroidTestSources
+Skipping task ':app:generateDebugAndroidTestSources' as it has no actions.
+:app:generateDebugAndroidTestSources UP-TO-DATE
+:app:generateDebugAndroidTestSources (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.001 secs.
+:app:incrementalDebugAndroidTestJavaCompilationSafeguard (Thread[Daemon worker Thread 2,5,main]) started.
+:app:incrementalDebugAndroidTestJavaCompilationSafeguard
+Putting task artifact state for task ':app:incrementalDebugAndroidTestJavaCompilationSafeguard' into context took 0.0 secs.
+Task :app:incrementalDebugAndroidTestJavaCompilationSafeguard class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:incrementalDebugAndroidTestJavaCompilationSafeguard actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:incrementalDebugAndroidTestJavaCompilationSafeguard' as it is up-to-date (took 0.006 secs).
+:app:incrementalDebugAndroidTestJavaCompilationSafeguard UP-TO-DATE
+:app:incrementalDebugAndroidTestJavaCompilationSafeguard (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.01 secs.
+:app:javaPreCompileDebugAndroidTest (Thread[Daemon worker Thread 2,5,main]) started.
+:app:javaPreCompileDebugAndroidTest
+Putting task artifact state for task ':app:javaPreCompileDebugAndroidTest' into context took 0.0 secs.
+Executing task ':app:javaPreCompileDebugAndroidTest' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:javaPreCompileDebugAndroidTest (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.01 secs.
+:app:compileDebugAndroidTestJavaWithJavac (Thread[Daemon worker Thread 2,5,main]) started.
+:app:compileDebugAndroidTestJavaWithJavac
+Putting task artifact state for task ':app:compileDebugAndroidTestJavaWithJavac' into context took 0.0 secs.
+Task :app:compileDebugAndroidTestJavaWithJavac class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:compileDebugAndroidTestJavaWithJavac actions class loader hash: 18198991b357e4282b88db10fdb1e992
+Skipping task ':app:compileDebugAndroidTestJavaWithJavac' as it is up-to-date (took 0.026 secs).
+:app:compileDebugAndroidTestJavaWithJavac UP-TO-DATE
+:app:compileDebugAndroidTestJavaWithJavac (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.029 secs.
+:app:compileDebugAndroidTestNdk (Thread[Daemon worker Thread 2,5,main]) started.
+:app:compileDebugAndroidTestNdk
+Putting task artifact state for task ':app:compileDebugAndroidTestNdk' into context took 0.001 secs.
+Skipping task ':app:compileDebugAndroidTestNdk' as it has no source files and no previous output files.
+:app:compileDebugAndroidTestNdk UP-TO-DATE
+:app:compileDebugAndroidTestNdk (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.002 secs.
+:app:compileDebugAndroidTestSources (Thread[Daemon worker Thread 2,5,main]) started.
+:app:compileDebugAndroidTestSources
+Skipping task ':app:compileDebugAndroidTestSources' as it has no actions.
+:app:compileDebugAndroidTestSources UP-TO-DATE
+:app:compileDebugAndroidTestSources (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.001 secs.
+:app:mergeDebugAndroidTestShaders (Thread[Daemon worker Thread 2,5,main]) started.
+:app:mergeDebugAndroidTestShaders
+Putting task artifact state for task ':app:mergeDebugAndroidTestShaders' into context took 0.001 secs.
+Task :app:mergeDebugAndroidTestShaders class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:mergeDebugAndroidTestShaders actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:mergeDebugAndroidTestShaders' as it is up-to-date (took 0.002 secs).
+:app:mergeDebugAndroidTestShaders UP-TO-DATE
+:app:mergeDebugAndroidTestShaders (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.004 secs.
+:app:compileDebugAndroidTestShaders (Thread[Daemon worker Thread 2,5,main]) started.
+:app:compileDebugAndroidTestShaders
+Putting task artifact state for task ':app:compileDebugAndroidTestShaders' into context took 0.0 secs.
+Task :app:compileDebugAndroidTestShaders class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:compileDebugAndroidTestShaders actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:compileDebugAndroidTestShaders' as it is up-to-date (took 0.004 secs).
+:app:compileDebugAndroidTestShaders UP-TO-DATE
+:app:compileDebugAndroidTestShaders (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.005 secs.
+:app:generateDebugAndroidTestAssets (Thread[Daemon worker Thread 2,5,main]) started.
+:app:generateDebugAndroidTestAssets
+Skipping task ':app:generateDebugAndroidTestAssets' as it has no actions.
+:app:generateDebugAndroidTestAssets UP-TO-DATE
+:app:generateDebugAndroidTestAssets (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.002 secs.
+:app:mergeDebugAndroidTestAssets (Thread[Daemon worker Thread 2,5,main]) started.
+:app:mergeDebugAndroidTestAssets
+Putting task artifact state for task ':app:mergeDebugAndroidTestAssets' into context took 0.0 secs.
+Task :app:mergeDebugAndroidTestAssets class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:mergeDebugAndroidTestAssets actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:mergeDebugAndroidTestAssets' as it is up-to-date (took 0.008 secs).
+:app:mergeDebugAndroidTestAssets UP-TO-DATE
+:app:mergeDebugAndroidTestAssets (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.01 secs.
+:app:transformClassesWithDexForDebugAndroidTest (Thread[Daemon worker Thread 2,5,main]) started.
+:app:transformClassesWithDexForDebugAndroidTest
+Putting task artifact state for task ':app:transformClassesWithDexForDebugAndroidTest' into context took 0.0 secs.
+Task :app:transformClassesWithDexForDebugAndroidTest class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:transformClassesWithDexForDebugAndroidTest actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:transformClassesWithDexForDebugAndroidTest' as it is up-to-date (took 0.006 secs).
+:app:transformClassesWithDexForDebugAndroidTest UP-TO-DATE
+:app:transformClassesWithDexForDebugAndroidTest (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.007 secs.
+:app:mergeDebugAndroidTestJniLibFolders (Thread[Daemon worker Thread 2,5,main]) started.
+:app:mergeDebugAndroidTestJniLibFolders
+Putting task artifact state for task ':app:mergeDebugAndroidTestJniLibFolders' into context took 0.0 secs.
+Task :app:mergeDebugAndroidTestJniLibFolders class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:mergeDebugAndroidTestJniLibFolders actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:mergeDebugAndroidTestJniLibFolders' as it is up-to-date (took 0.001 secs).
+:app:mergeDebugAndroidTestJniLibFolders UP-TO-DATE
+:app:mergeDebugAndroidTestJniLibFolders (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.003 secs.
+:app:transformNativeLibsWithMergeJniLibsForDebugAndroidTest (Thread[Daemon worker Thread 2,5,main]) started.
+:app:transformNativeLibsWithMergeJniLibsForDebugAndroidTest
+Putting task artifact state for task ':app:transformNativeLibsWithMergeJniLibsForDebugAndroidTest' into context took 0.0 secs.
+Task :app:transformNativeLibsWithMergeJniLibsForDebugAndroidTest class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:transformNativeLibsWithMergeJniLibsForDebugAndroidTest actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:transformNativeLibsWithMergeJniLibsForDebugAndroidTest' as it is up-to-date (took 0.002 secs).
+:app:transformNativeLibsWithMergeJniLibsForDebugAndroidTest UP-TO-DATE
+:app:transformNativeLibsWithMergeJniLibsForDebugAndroidTest (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.003 secs.
+:app:processDebugAndroidTestJavaRes (Thread[Daemon worker Thread 2,5,main]) started.
+:app:processDebugAndroidTestJavaRes
+Putting task artifact state for task ':app:processDebugAndroidTestJavaRes' into context took 0.001 secs.
+Skipping task ':app:processDebugAndroidTestJavaRes' as it has no source files and no previous output files.
+:app:processDebugAndroidTestJavaRes UP-TO-DATE
+:app:processDebugAndroidTestJavaRes (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.002 secs.
+:app:transformResourcesWithMergeJavaResForDebugAndroidTest (Thread[Daemon worker Thread 2,5,main]) started.
+:app:transformResourcesWithMergeJavaResForDebugAndroidTest
+Putting task artifact state for task ':app:transformResourcesWithMergeJavaResForDebugAndroidTest' into context took 0.001 secs.
+Task :app:transformResourcesWithMergeJavaResForDebugAndroidTest class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:transformResourcesWithMergeJavaResForDebugAndroidTest actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:transformResourcesWithMergeJavaResForDebugAndroidTest' as it is up-to-date (took 0.011 secs).
+:app:transformResourcesWithMergeJavaResForDebugAndroidTest UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebugAndroidTest (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.014 secs.
+:app:validateSigningDebugAndroidTest (Thread[Daemon worker Thread 2,5,main]) started.
+:app:validateSigningDebugAndroidTest
+Putting task artifact state for task ':app:validateSigningDebugAndroidTest' into context took 0.0 secs.
+Executing task ':app:validateSigningDebugAndroidTest' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:validateSigningDebugAndroidTest (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.003 secs.
+:app:packageDebugAndroidTest (Thread[Daemon worker Thread 2,5,main]) started.
+:app:packageDebugAndroidTest
+Putting task artifact state for task ':app:packageDebugAndroidTest' into context took 0.001 secs.
+Task :app:packageDebugAndroidTest class loader hash: 7e6e9bf7a8a439398628229ea2c7266a
+Task :app:packageDebugAndroidTest actions class loader hash: 8605ffca8bc4a746469163f1432ce86d
+Skipping task ':app:packageDebugAndroidTest' as it is up-to-date (took 0.021 secs).
+:app:packageDebugAndroidTest UP-TO-DATE
+:app:packageDebugAndroidTest (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.031 secs.
+:app:assembleDebugAndroidTest (Thread[Daemon worker Thread 2,5,main]) started.
+:app:assembleDebugAndroidTest
+Skipping task ':app:assembleDebugAndroidTest' as it has no actions.
+:app:assembleDebugAndroidTest UP-TO-DATE
+:app:assembleDebugAndroidTest (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.001 secs.
+:app:connectedDebugAndroidTest (Thread[Daemon worker Thread 2,5,main]) started.
+:app:connectedDebugAndroidTest
+Putting task artifact state for task ':app:connectedDebugAndroidTest' into context took 0.0 secs.
+Executing task ':app:connectedDebugAndroidTest' (up-to-date check took 0.0 secs) due to:
+  Task.upToDateWhen is false.
+DeviceConnector 'Lenovo TB-X304F - 7.1.1': installing /home/fwpub/work/testcase/testcases/app/build/outputs/apk/app-debug.apk
+DeviceConnector 'Lenovo TB-X304F - 7.1.1': installing /home/fwpub/work/testcase/testcases/app/build/outputs/apk/app-debug-androidTest.apk
+Starting 100 tests on Lenovo TB-X304F - 7.1.1
+
+com.android.contacts.TestCase0_DeviceSetupTest > androidRequestPermissions[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase0_DeviceSetupTest > clearCache[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase10_SaveAndDiscardName > testSaveName[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase10_SaveAndDiscardName > testDiscardName[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase114_ImportWhenOnlyOneVCardTest > testImportWhenOnlyOneVCard[Lenovo TB-X304F - 7.1.1] [31mFAILED [0m
+	com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAILED: VCard count mismatch expected:<1> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+
+com.android.contacts.TestCase115_ImportWhenMultipleVCardExistTest > testImportWhenManyVCard[Lenovo TB-X304F - 7.1.1] [31mFAILED [0m
+	com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAILED: VCard count mismatch
+	at org.junit.Assert.fail(Assert.java:88)
+
+com.android.contacts.TestCase118_ImportWhenNoVCardTest > testImportWhenNoVCard[Lenovo TB-X304F - 7.1.1] [31mFAILED [0m
+	com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAILED: No SIM insert
+	at org.junit.Assert.fail(Assert.java:88)
+
+com.android.contacts.TestCase119_ImportWithOneLargeVCardTest > testImportWithOneLargeVCard[Lenovo TB-X304F - 7.1.1] [31mFAILED [0m
+	com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAILED: VCard count mismatch expected:<1> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+
+com.android.contacts.TestCase11_SetPhotoWithGIFTest > testSetPhotoWithGIF[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase122_ExportToLocalStorageWithPeoplesTest > testExportToLocalStorageWithPeoples[Lenovo TB-X304F - 7.1.1] [31mFAILED [0m
+	com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAILED: See trace below
+	at org.junit.Assert.fail(Assert.java:86)
+
+com.android.contacts.TestCase125_ExportToLocalStorageWith1000PeoplesTest > testExportToLocalStorageWithPeoples[Lenovo TB-X304F - 7.1.1] [31mFAILED [0m
+	com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAILED: See trace below
+	at org.junit.Assert.fail(Assert.java:86)
+
+com.android.contacts.TestCase128_ExportToLocalStorageWithPeoplesDiscardTest > testExportToLocalStorageWithPeoples[Lenovo TB-X304F - 7.1.1] [31mFAILED [0m
+	com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAILED: See trace below
+	at org.junit.Assert.fail(Assert.java:86)
+
+com.android.contacts.TestCase12_EditPhotoTest > testEditPhoto[Lenovo TB-X304F - 7.1.1] [31mFAILED [0m
+	com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAILED: No download photos
+	at org.junit.Assert.fail(Assert.java:88)
+
+com.android.contacts.TestCase131_ExportToLocalStorageWithPeoplesMultipleTimesTest > testExportToLocalStorageWithPeoples[Lenovo TB-X304F - 7.1.1] [31mFAILED [0m
+	com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAILED: See trace below
+	at org.junit.Assert.fail(Assert.java:86)
+
+com.android.contacts.TestCase13_SetPhotoWithDownloadImageTest > testSetPhotoWithDownloadImage[Lenovo TB-X304F - 7.1.1] [31mFAILED [0m
+	com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAILED: No download photos
+	at org.junit.Assert.fail(Assert.java:88)
+
+com.android.contacts.TestCase14_SetPhotoWithDiffFormatImagesTest > testWithDiffFormatPhoto[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase152_ExportToSDTest > testExportToSD[Lenovo TB-X304F - 7.1.1] [31mFAILED [0m
+	com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAILED: SD card not found
+	at org.junit.Assert.fail(Assert.java:88)
+
+com.android.contacts.TestCase15_SetPhotoWithCapturedTest > testSetPhotoWithCaptureImage[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase16_EditCompanyandTitle > testEditCompanyandTitle[Lenovo TB-X304F - 7.1.1] [31mFAILED [0m
+	java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+
+com.android.contacts.TestCase17_EditCompanyWithRotate > testEditCompanyWithRotate[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase186_Stress_DeletePeopleTest > testDeletePeople[Lenovo TB-X304F - 7.1.1] [31mFAILED [0m
+	com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAILED: expected:<46> but was:<225>
+	at org.junit.Assert.fail(Assert.java:88)
+
+com.android.contacts.TestCase187_Stress_ImportExportTest > testImportExport[Lenovo TB-X304F - 7.1.1] [31mFAILED [0m
+	java.lang.AssertionError: VCard count mismatch
+	at org.junit.Assert.fail(Assert.java:88)
+
+com.android.contacts.TestCase18_SaveandDiscardCompanyTest > testEditCompanyandTitle[Lenovo TB-X304F - 7.1.1] [31mFAILED [0m
+	java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+
+com.android.contacts.TestCase191_ExportToSDWith1000PeoplesTest > testExportToLocalStorageWithPeoples[Lenovo TB-X304F - 7.1.1] [31mFAILED [0m
+	com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAILED: See trace below
+	at org.junit.Assert.fail(Assert.java:86)
+
+com.android.contacts.TestCase192_Stress_Create5000PeopleTest > testCreatePeople[Lenovo TB-X304F - 7.1.1] [31mFAILED [0m
+	com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAILED: See trace below
+	at org.junit.Assert.fail(Assert.java:86)
+
+com.android.contacts.TestCase194_DeletePeopleInGroupTest > testEditGroup[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase194_TestDeleteContactFromFavorites > testDeleteContactFromFavorites[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase195_RemovePeopleFromGroupTest > testEditGroup[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase196_TestCancelFavoriteContact > testCancelFavoriteContact[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase197_EditContactFromFavorites > testEditContactFromFavorites[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase199_TestPlaceOnHomeFromFavorites > testPlaceOnHomeFromFavorites[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase19_TestEditNumberWithDifferentType > testEditNumberWithDifferentType[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase1_ContactsWidgetTest > testWidgets[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase20_TestEditNumberWithRotate > testEditNumberWithRotate[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase21_SaveandDiscardPhoneTest > testSaveandDiscardPhone[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase22_EditEmailWithDifferentType > testEditEmailWithOther[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase22_EditEmailWithDifferentType > testEditEmailWithHome[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase22_EditEmailWithDifferentType > testEditEmailWithWork[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase22_EditEmailWithDifferentType > testEditEmailWithCustom[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase23_EditEmailWithRotate > testEditEmailWithRotate[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase24_SaveAndDiscardEmail > testDiscardEmail[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase24_SaveAndDiscardEmail > testSaveEmail[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase25_TestCorrectAndWrongEmail > testCorrectEmail[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase25_TestCorrectAndWrongEmail > testWrongEmail[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase28_CreatePeopleInPhoneTest > testCreatePeopleInPhone[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase29_CreatePeopleInSIMTest > testCreatePeopleInSIM[Lenovo TB-X304F - 7.1.1] [31mFAILED [0m
+	com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAILED: SIM not ready
+	at org.junit.Assert.fail(Assert.java:88)
+
+com.android.contacts.TestCase30_CreatePeopleInGoogleAccountTest > testCreatePeopleInGoogle[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase31_SyncContactsWithQQAccountTest > testSyncWithQQ[Lenovo TB-X304F - 7.1.1] [31mFAILED [0m
+	com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAILED: Your device has no QQ account!
+	at org.junit.Assert.fail(Assert.java:88)
+
+com.android.contacts.TestCase32_DefaultGroupDiaplayTest > testDefaultGroups[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase33_CreateGroupTest > testCreateGroups[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase36_EditGroupTest > testEditGroups[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase37_DefaultGroupTest > testDefaultGroups[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase38_AddPeopleToGroupTest > testEditGroup[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase39_RemovePeopleFromGroupTest > testEditGroup[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase40_AddToABC_RemovefromATest > testEditGroup[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase42_RemoveCustomGroupTest > testEditGroup[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase43_EditIMWithDifferentType > testEditIMWithDifferentType[Lenovo TB-X304F - 7.1.1] [31mFAILED [0m
+	junit.framework.AssertionFailedError: Save Failed !!!
+	at junit.framework.Assert.fail(Assert.java:50)
+
+com.android.contacts.TestCase44_SaveAndDiscardIMWithRotate > testEditIMWithSave[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase44_SaveAndDiscardIMWithRotate > testEditIMWithDiscard[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase46_EditNotes > testEditNotes[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase47_SaveAndDiscardNotesWithRotate > testSaveNotesWithRotate[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase47_SaveAndDiscardNotesWithRotate > testDiscardNotesWithRotate[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase49_EditNicknameWithDiffCharTest > testEditNicknameWithDiffCharsets[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase50_SaveandDiscardNicknameTest > testSaveandDiscardNickname[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase52_EditWebsite > testEditWebsite[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase53_SaveAndDiscardWebsiteWithRotate > testDiscardWebsiteWithRotate[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase53_SaveAndDiscardWebsiteWithRotate > testSaveWebsiteWithRotate[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase55_EditWebsiteWithChineseChar > testEditWebsiteWithChineseChar[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase59_TestSwitchTabs > testSwitchTabs[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase5_EditNameWithDiffCharTest > testEditNameWithDiffCharsets[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase60_SortTest > testSort[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase61_ShowPhotoWithAlphaTest > testShowPhotoWithAlpha[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase64_CreatePeopleWithNumberOnlyTest > testCreatePeopleWithNumberOnly[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase65_CreatePeopleWithNameOnlyTest > testCreatePeopleWithNameOnly[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase66_CreatePeopleWithMailOnlyTest > testCreatePeopleWithMailOnly[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase67_FloatingIndexTest > testFloatingIndex[Lenovo TB-X304F - 7.1.1] [31mFAILED [0m
+	com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAILED: Missing some alphaBeta
+	at org.junit.Assert.fail(Assert.java:88)
+
+com.android.contacts.TestCase68_PinnedIndexTest > testPinnedIndex[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase69_TestSetupProfile > testSetupProfile[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase70_TestSaveAndDiscardProfileWithRotate > testSaveProfile[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase70_TestSaveAndDiscardProfileWithRotate > testDiscardProfile[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase72_SetupMyProfileWithGIFTest > testSetupMyProfileWithGIF[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase73_SetupMyProfileWithLocalPhotoTest > testSetupMyProfileWithLocalPhoto[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase74_SetupMyProfileWithDownloadPhotoTest > testSetupMyProfileWithDownloadPhoto[Lenovo TB-X304F - 7.1.1] [31mFAILED [0m
+	com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAILED: No download photos
+	at org.junit.Assert.fail(Assert.java:88)
+
+com.android.contacts.TestCase75_SetupMyProfileWithTakenPhotoTest > testSetupMyProfileWithTakenPhoto[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase76_ContactDetailsTest > testContactDetails[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase78_AddToFavouriteTest > testFav[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase79_RemoveFromFavouriteTest > testFav[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase7_SaveAndDiscardTest > testSaveAndDiscard[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase80_DeletePeopleTest > testDeletePeople[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase81_DeletePeopleChangeOrientationTest > testCreatePeopleWithMailOnly[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase83_SharePeopleWithBTOnTest > testSharePeople[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase84_SharePeopleWithBTOffTest > testSharePeople[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase85_SharePeopleWithSHAREitTest > testSharePeople[Lenovo TB-X304F - 7.1.1] [31mFAILED [0m
+	com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAILED: No SHAREit found!!!
+	at org.junit.Assert.fail(Assert.java:88)
+
+com.android.contacts.TestCase88_TestCopyAndPasteNumber > testCopyAndPasteNumber[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase8_TestPinyinName > testPinyinName[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase91_AddNumberAndEmailFromQuickContactActivity > testAddNumberAndEmailFromQuickContactActivity[Lenovo TB-X304F - 7.1.1] [31mFAILED [0m
+	android.support.test.uiautomator.UiObjectNotFoundException: UiSelector[TEXT=Screenshots]
+	at android.support.test.uiautomator.UiObject.clickAndWaitForNewWindow(UiObject.java:452)
+
+com.android.contacts.TestCase93_DeletePeopleTest > testDeletePeople[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase94_TestLinkContacts > testLinkContacts[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase96_TestUnlinkContacts > testUnlinkContacts[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+
+com.android.contacts.TestCase97_TestDiscardChanges > testDiscardChanges[Lenovo TB-X304F - 7.1.1] [32mSUCCESS [0m
+DeviceConnector 'Lenovo TB-X304F - 7.1.1': uninstalling com.lenovo.testcases.test
+DeviceConnector 'Lenovo TB-X304F - 7.1.1': uninstalling com.lenovo.testcases
+:app:connectedDebugAndroidTest FAILED
+:app:connectedDebugAndroidTest (Thread[Daemon worker Thread 2,5,main]) completed. Took 43 mins 51.678 secs.
+
+BUILD FAILED
+
+Total time: 43 mins 54.158 secs
+Stopped 0 worker daemon(s).
+Received result Failure[value=org.gradle.initialization.ReportedException: org.gradle.internal.exceptions.LocationAwareException: Execution failed for task ':app:connectedDebugAndroidTest'.] from daemon DaemonInfo{pid=29784, address=[876c577d-aa3b-40be-9a17-c7333d364879 port:39792, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]], state=Idle, lastBusy=1496716208403, context=DefaultDaemonContext[uid=ae6a5239-4b60-4dba-ad50-44738d460729,javaHome=/usr/lib/jvm/java-8-openjdk-amd64,daemonRegistryDir=/home/fwpub/.gradle/daemon,pid=29784,idleTimeout=10800000,daemonOpts=-Xmx1536m,-Dfile.encoding=UTF-8,-Duser.country=CN,-Duser.language=zh,-Duser.variant]} (build should be done).
